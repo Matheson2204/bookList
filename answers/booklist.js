@@ -16,7 +16,7 @@ class BookManager {
             author: author
         };
 
-        this._books.push(newBook); // push the newly created book to the books array
+        this.books.push(newBook); // push the newly created book to the books array
     }
 
     get books() {
