@@ -12,9 +12,10 @@ class BookManager {
   addBook() {
       // create an object for the newBook
       
-          // object book consists of properties id, name,genre,author, img
-
+          // your object should consist of properties id, name,genre and author with values added when we call this method
+          // don't forget that this may require some parameters to be used as values
           // id should be unique and increment by 1 every new instance
+          // if no argument is given, the properties should equal an empty string
 
       // push the newly created object to our books array
       

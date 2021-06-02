@@ -1,11 +1,11 @@
 // Objects 
 
-// 1. Create an object literal ‘person’ that has properties of the person like firstname, lastname, place of birth and country - give the related values
+// 1. Create an object literal ‘person’ that contains the keys firstname, lastname, place of birth and country - give them some related values
 //  a) Console.log the object ‘person’
 //  b) Console.log the country property of the object ‘person’
 //  c) Console.log the ‘place of birth’ property of the ‘person’ object
 
-// 2. Create an object in Javascript named ‘school’ with properties ‘name’,’location’,’established year’ - give them some related values
+// 2. Create an object in Javascript named ‘school’ that contains the keys ‘name’,’location’,’established year’ - give them some related values
 // a) Console.log the school name and location
 // b) Console.log the established year
 // c) To that ‘school’ object, add a function ‘displayInfo’ to log to the console “My school ____ was established in ___ at ____”
