@@ -18,6 +18,7 @@ class BookManager {
           // if no argument is given, the properties should equal an empty string
 
       // push the newly created object to our books array
+      // hint: best practice would be to access our books array using the get method
       
   }
 
