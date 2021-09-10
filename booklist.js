@@ -1,14 +1,14 @@
 // BookManager class
 class BookManager {
-// constructor with a paramater currentId set to 0 by default
+// this is a constructor with a paramater currentId set to 0 by default
   constructor(currentId = 0) {
       // initialize an empty array called books
     
-      //initialize a currentId set to currentId
+      // initialize a currentId set to currentId
   }
 
   // function addBook creates an object and pushes it to our books array
-  // should take in a name, genre and author and by default have an empty string
+  // it should take in a name, genre and author and by default have an empty string
   addBook() {
       // create an object for the newBook
       

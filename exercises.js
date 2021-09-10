@@ -1,4 +1,4 @@
-// Objects 
+// Objects
 
 // 1. Create an object literal ‘person’ that contains the keys firstname, lastname, place of birth and country - give them some related values
 //  a) Console.log the object ‘person’
@@ -15,21 +15,18 @@
 // f) Console.log the school object
 
 // Classes
-// Create a class called person
-class Person {
-	constructor(name) {
-		this.name = name;
-	}
-	getName() {
-		return this.name;
-	}
 
-// 1. create a static method for creating an Anonymous person
-//  a) this should give a name variable as John Doe or Jane Doe depending on a gender parameter (hint: use if else or ternary opertors)
-//  b) it should then return a new instance of person with this name
-	
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  getName() {
+    return this.name;
+  }
 }
 
+// 1. In the above class, create a static method for creating an Anonymous person
+//  a) this should give a name variable as John Doe or Jane Doe depending on a gender parameter (hint: use if else or ternary opertors)
+//  b) it should then return a new instance of person with this name
+
 // 2. use the static method and save it to a variable and console log it
-
-
