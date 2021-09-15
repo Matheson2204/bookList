@@ -1,32 +1,19 @@
 // Objects
 
-// 1. Create an object literal ‘person’ that contains the keys firstname, lastname, place of birth and country - give them some related values
-//  a) Console.log the object ‘person’
-//  b) Console.log the country property of the object ‘person’
-//  c) Console.log the ‘place of birth’ property of the ‘person’ object
-
-// 2. Create an object in Javascript named ‘school’ that contains the keys ‘name’,’location’,’established year’ - give them some related values
-// a) Console.log the school name and location
-// b) Console.log the established year
-// c) To that ‘school’ object, add a function ‘displayInfo’ to log to the console “My school ____ was established in ___ at ____”
-//filling the blanks with the relevant values - Do the above using the ‘this’ keyword
-// d) Call the function ‘displayInfo’
-// e) Mutate the school object to add a boolean value called graduated and set it to true or false.
-// f) Console.log the school object
+// 1. Create an object in Javascript assigned to a variable named ‘school’ that contains the following properties:
+// name: "Hogwarts"
+// location: "Unknown"
+// established: "the 10th Century"
+// a) Outside the class, Console.log the school name.
+// b) To the ‘school’ object, add a function ‘displayInfo’ that logs to the console “My school ____ was established in ___ at ____”
+// filling the blanks with the relevant values - (remember to do the above using the ‘this’ keyword)
+// c) Outside the class, Call the function ‘displayInfo’
 
 // Classes
 
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-  getName() {
-    return this.name;
-  }
-}
-
-// 1. In the above class, create a static method for creating an Anonymous person
-//  a) this should give a name variable as John Doe or Jane Doe depending on a gender parameter (hint: use if else or ternary opertors)
-//  b) it should then return a new instance of person with this name
-
-// 2. use the static method and save it to a variable and console log it
+// We will now create a template for making school objects! You may want to refer to Class Syntax: https://www.w3schools.com/js/js_classes.asp ;
+// 1. create a class called CreateSchool
+// a) in its constructor method, give it the properties of name, location and established
+// b) add a method called displayInfo that console.logs the properties
+// c) Using this class, create a new instance (object) with the values of the object we made above
+// d) call this Instance's (this new object created from the template) displayInfo();
